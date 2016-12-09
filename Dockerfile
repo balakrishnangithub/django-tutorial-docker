@@ -1,5 +1,5 @@
 FROM python:3.5-alpine
 ENV PYTHONUNBUFFERED 1
-COPY requirements.txt /app/mysite/
 WORKDIR /app/mysite/
+COPY requirements.txt .
 RUN pip install -r requirements.txt
