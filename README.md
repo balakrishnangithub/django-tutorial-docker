@@ -10,7 +10,7 @@ $ docker build -t $IMAGENAME .
 $ docker run --rm $IMAGENAME python -m django --version
 ```
 
-create a django project
+start a project named mysite
 
 ```
 $ docker run --rm -v $LOCALPATH:/app/mysite $IMAGENAME django-admin startproject mysite .
@@ -23,4 +23,12 @@ run development server
 ```
 $ docker run --rm -it -p 8000:8000 -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py runserver 0.0.0.0:8000
 ```
+
+start an app named polls
+
+```
+$ docker run --rm -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py startapp polls
+```
+
+[repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/5c2ecbc04ccc6fbc69ef51858d5d0b0c5038b046)
 
