@@ -49,3 +49,9 @@ $ docker run --rm -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py startapp
 $ docker run --rm -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py migrate
 ```
 
+#### Models
+
+Change your models
+
+[code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/dfbfec7282f48082b65ae5be5db78769e8d9106a), [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/dfbfec7282f48082b65ae5be5db78769e8d9106a)
+
