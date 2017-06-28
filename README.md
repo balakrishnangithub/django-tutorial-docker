@@ -15,7 +15,7 @@ $ docker run --rm $IMAGENAME python -m django --version
 
 
 ```
-$ docker run --rm -v $LOCALPATH:/app/mysite $IMAGENAME django-admin startproject mysite .
+$ docker run --rm -u $CURRENTUSERID -v $LOCALPATH:/app/mysite $IMAGENAME django-admin startproject mysite .
 ```
 
 [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/5d8a6d8d0ea19e77093e20969fc0c5532363b292)
@@ -24,14 +24,14 @@ $ docker run --rm -v $LOCALPATH:/app/mysite $IMAGENAME django-admin startproject
 
 
 ```
-$ docker run --rm -it -p 8000:8000 -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py runserver 0.0.0.0:8000
+$ docker run --rm -u $CURRENTUSERID -it -p 8000:8000 -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py runserver 0.0.0.0:8000
 ```
 
 - [ ] start app named *polls*
 
 
 ```
-$ docker run --rm -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py startapp polls
+$ docker run --rm -u $CURRENTUSERID -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py startapp polls
 ```
 
 [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/a3390aa5e0c13951c251dd4033f03834de8c124d)
@@ -53,7 +53,7 @@ $ docker run --rm -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py startapp
 - [ ] generate migration script
 
 ```shl
-$ docker run --rm -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py makemigrations polls
+$ docker run --rm -u $CURRENTUSERID -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py makemigrations polls
 ```
 
 [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/f61d7b3158d459f7d599a706db042e9fead95eb5), [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/f61d7b3158d459f7d599a706db042e9fead95eb5)
@@ -63,19 +63,19 @@ $ docker run --rm -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py makemigr
 check for issues
 
 ```
-$ docker run --rm -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py check
+$ docker run --rm -u $CURRENTUSERID -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py check
 ```
 
 view SQL of the migration script
 
 ```
-$ docker run --rm -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py sqlmigrate polls 0001
+$ docker run --rm -u $CURRENTUSERID -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py sqlmigrate polls 0001
 ```
 
 apply
 
 ```
-$ docker run --rm -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py migrate
+$ docker run --rm -u $CURRENTUSERID -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py migrate
 ```
 
 #### Playing with the API
@@ -83,7 +83,7 @@ $ docker run --rm -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py migrate
 - [ ] invoke Python shell
 
 ```
-$ docker run --rm -it -p 8000:8000 -v $LOCALPATH:/app/mysite $IMAGENAME python shell
+$ docker run --rm -u $CURRENTUSERID -it -p 8000:8000 -v $LOCALPATH:/app/mysite $IMAGENAME python shell
 ```
 
 - [ ] try inserting record
