@@ -1,5 +1,6 @@
 ## Django Admin
 
+- [ ] Enable *Django Admin*
 ```shl
 $ docker run --rm -u $UID -it -v $LOCALPATH:/app/mysite django-tutorial-docker python manage.py createsuperuser
 Username: admin
@@ -8,3 +9,8 @@ Password:
 Password (again):
 Superuser created successfully.
 ```
+
+- [ ] Make the *polls*'s *Question* model modifiable in the *Django Admin*
+
+[code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/97f9e8b46992431ebf6bec270aecff305a50ce87),
+[repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/97f9e8b46992431ebf6bec270aecff305a50ce87)
