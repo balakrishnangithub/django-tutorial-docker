@@ -48,7 +48,7 @@ $ docker run --rm -u $CURRENTUSERID -v $LOCALPATH:/app/mysite $IMAGENAME python 
 - [ ] add *Question* and *Choice* model for *polls*
 
 
-[code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/dfbfec7282f48082b65ae5be5db78769e8d9106a), [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/dfbfec7282f48082b65ae5be5db78769e8d9106a)
+[code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/e4831eecd188bbee0f5a175282ea3367f4ddc55b), [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/e4831eecd188bbee0f5a175282ea3367f4ddc55b)
 
 - [ ] generate migration script
 
@@ -56,7 +56,7 @@ $ docker run --rm -u $CURRENTUSERID -v $LOCALPATH:/app/mysite $IMAGENAME python 
 $ docker run --rm -u $CURRENTUSERID -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py makemigrations polls
 ```
 
-[code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/f61d7b3158d459f7d599a706db042e9fead95eb5), [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/f61d7b3158d459f7d599a706db042e9fead95eb5)
+[code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/cc503a9dbe6569d6d90aad36561ae0f61eeb470b), [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/cc503a9dbe6569d6d90aad36561ae0f61eeb470b)
 
 - [ ] apply migration to database
 
@@ -108,7 +108,7 @@ $ docker run --rm -u $CURRENTUSERID -it -p 8000:8000 -v $LOCALPATH:/app/mysite $
 
 - [ ] add `__str__()` method to *Question* and *Choice* model
 
-[code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/3fbc40a184bc59b75e7c434bae25ad7b69199954), [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/3fbc40a184bc59b75e7c434bae25ad7b69199954)
+[code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/4076cf65bc6bd7e5d5bec1a69586222c9967a9b3), [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/4076cf65bc6bd7e5d5bec1a69586222c9967a9b3)
 
 ```
 >>> Question.objects.all()
@@ -118,7 +118,7 @@ $ docker run --rm -u $CURRENTUSERID -it -p 8000:8000 -v $LOCALPATH:/app/mysite $
 - [ ] add `was_published_recently()` to *Question* model
 
 
-[code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/b73aef6495c53957de112f799c640af31f6b11d6), [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/b73aef6495c53957de112f799c640af31f6b11d6)
+[code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/377abdbd830a967952fc9875ab0e3adfe6b4673c), [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/377abdbd830a967952fc9875ab0e3adfe6b4673c)
 
 ```
 >>> q = Question.objects.get(pk=1)
