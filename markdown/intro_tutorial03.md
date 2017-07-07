@@ -1,10 +1,19 @@
 ## intro/tutorial03
-- [ ] add view to display `question_id` based on the following URLs.
- - *`/polls/{question_id}`*
- - *`/polls/{question_id}/results`*
- - *`/polls/{question_id}/vote`*
+- [ ] response to the following requests by displaying `question_id`
+ - *`/polls/{question_id}/`*
+ - *`/polls/{question_id}/results/`*
+ - *`/polls/{question_id}/vote/`*
 
  Tip: [Named Capturing Groups](http://www.regular-expressions.info/named.html)
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/9eaad4bcfc951ed72c17041b894b58f78559a144),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/9eaad4bcfc951ed72c17041b894b58f78559a144)
+
+- [ ] response to the following request by displaying
+latest 5 poll questions,
+separated by commas,
+according to publication date
+ - *`/polls/`*
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/b26f352d570b99d053da891a14015111479e8d19),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/b26f352d570b99d053da891a14015111479e8d19)
