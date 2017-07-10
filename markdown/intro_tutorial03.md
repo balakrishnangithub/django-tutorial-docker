@@ -27,3 +27,8 @@ according to publication date
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/a724a7dcac4e98660f3d3e6499c42d53a043451b),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/a724a7dcac4e98660f3d3e6499c42d53a043451b)
+
+- [ ] update detail view to raise exception if the requested question `DoesNotExist`
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/0e09e7347c5faf4e1f40c7c15eaf4ded30753f42),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/0e09e7347c5faf4e1f40c7c15eaf4ded30753f42)
