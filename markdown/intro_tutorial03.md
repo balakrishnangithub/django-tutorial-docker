@@ -24,5 +24,6 @@ according to publication date
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/f4553b589fc60d9b60ad817606fb35c3616706d8)
 
 - [ ] use `render` function in `django.shortcuts` to simplify template rendering
+
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/a724a7dcac4e98660f3d3e6499c42d53a043451b),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/a724a7dcac4e98660f3d3e6499c42d53a043451b)
