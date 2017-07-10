@@ -17,3 +17,8 @@ according to publication date
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/b26f352d570b99d053da891a14015111479e8d19),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/b26f352d570b99d053da891a14015111479e8d19)
+
+- [ ] create a template to render latest 5 poll questions
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/f4553b589fc60d9b60ad817606fb35c3616706d8),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/f4553b589fc60d9b60ad817606fb35c3616706d8)
