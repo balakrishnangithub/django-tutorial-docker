@@ -23,7 +23,7 @@ according to publication date
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/f4553b589fc60d9b60ad817606fb35c3616706d8),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/f4553b589fc60d9b60ad817606fb35c3616706d8)
 
-- [ ] use `render` function in `django.shortcuts` to simplify template rendering
+- [ ] use `render` function from `django.shortcuts` to simplify template rendering
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/a724a7dcac4e98660f3d3e6499c42d53a043451b),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/a724a7dcac4e98660f3d3e6499c42d53a043451b)
@@ -32,3 +32,8 @@ according to publication date
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/0e09e7347c5faf4e1f40c7c15eaf4ded30753f42),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/0e09e7347c5faf4e1f40c7c15eaf4ded30753f42)
+
+- [ ] use `get_object_or_404` function from `django.shortcuts` to simplify exception handling
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/ae8dbeb620431fc5509df771099ea92c870d87a5),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/ae8dbeb620431fc5509df771099ea92c870d87a5)
