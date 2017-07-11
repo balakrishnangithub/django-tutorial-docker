@@ -47,3 +47,8 @@ according to publication date
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/ec2d59cd7e74628de10525be33b7b7cf07f45eb2),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/ec2d59cd7e74628de10525be33b7b7cf07f45eb2)
+
+- [ ] add app namespace to differentiate URL names between other apps
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/eec00b0235ef9dc7f47104494191d5f52e746f35),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/eec00b0235ef9dc7f47104494191d5f52e746f35)
