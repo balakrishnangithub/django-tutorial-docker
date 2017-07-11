@@ -1,1 +1,10 @@
-{{ question }}
+<h1>{{ question.question_text }}</h1>
+<ul>
+    {#First try dictionary lookup i.e. question["choice_set"]#}
+    {#Second try attribute lookup i.e. question.choice_set#}
+    {#Third try list-index lookup#}
+    {#interpreted as the Python code question.choice_set.all()#}
+    {% for choice in question.choice_set.all %}
+        <li>{{ choice.choice_text }}</li>
+    {% endfor %}
+</ul>
