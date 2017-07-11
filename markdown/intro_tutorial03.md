@@ -42,3 +42,8 @@ according to publication date
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/c83c5e78efa1836c4bf8d68a1c2d4b5d1a036a85),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/c83c5e78efa1836c4bf8d68a1c2d4b5d1a036a85)
+
+- [ ] remove hardcoded URLs to simplify changing it later
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/ec2d59cd7e74628de10525be33b7b7cf07f45eb2),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/ec2d59cd7e74628de10525be33b7b7cf07f45eb2)
