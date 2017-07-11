@@ -37,3 +37,8 @@ according to publication date
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/ae8dbeb620431fc5509df771099ea92c870d87a5),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/ae8dbeb620431fc5509df771099ea92c870d87a5)
+
+- [ ] update detail template to display question and its choices
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/c83c5e78efa1836c4bf8d68a1c2d4b5d1a036a85),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/c83c5e78efa1836c4bf8d68a1c2d4b5d1a036a85)
