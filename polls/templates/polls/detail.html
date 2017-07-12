@@ -1,10 +1,14 @@
 <h1>{{ question.question_text }}</h1>
-<ul>
-    {#First try dictionary lookup i.e. question["choice_set"]#}
-    {#Second try attribute lookup i.e. question.choice_set#}
-    {#Third try list-index lookup#}
-    {#interpreted as the Python code question.choice_set.all()#}
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+<form action="{% url 'polls:vote' question.id %}" method="post">
+    {#csrf_token helps to distinguish forgery request from cross site#}
+    {% csrf_token %}
     {% for choice in question.choice_set.all %}
-        <li>{{ choice.choice_text }}</li>
+        {#forloop.counter indicates how many times the for tag has gone through its loop#}
+        <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}"/>
+        <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br/>
     {% endfor %}
-</ul>
+    <input type="submit" value="Vote"/>
+</form>
