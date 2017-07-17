@@ -10,3 +10,14 @@ to the following URL:
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/25348c9fdd0f306a3434619df64dc42bbdc05c58),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/25348c9fdd0f306a3434619df64dc42bbdc05c58)
+- [ ] create template for *results* view, which should be like below
+  ```
+Question?
+
+Choice One -- 1 vote
+Choice Two -- 2 votes
+Vote again?
+  ```
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/d8e857f45f0854827f94113a0b119b05deb393fe),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/d8e857f45f0854827f94113a0b119b05deb393fe)
