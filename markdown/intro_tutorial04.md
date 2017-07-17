@@ -22,3 +22,8 @@ Vote again?
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/d8e857f45f0854827f94113a0b119b05deb393fe),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/d8e857f45f0854827f94113a0b119b05deb393fe)
+
+__Tip:__ use [F() expressions](https://docs.djangoproject.com/en/1.10/ref/models/expressions/#f-expressions) to avoid [race conditions](https://docs.djangoproject.com/en/1.10/ref/models/expressions/#avoiding-race-conditions-using-f)
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/4142c80fb583828bf46051608f4eb82fcef4278e),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/4142c80fb583828bf46051608f4eb82fcef4278e)
