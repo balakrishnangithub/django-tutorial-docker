@@ -15,8 +15,8 @@ to the following URL:
 ```
 Question?
 
-Choice One -- 1 vote
-Choice Two -- 2 votes
+* Choice One -- 1 vote
+* Choice Two -- 2 votes
 Vote again?
 ```
 
