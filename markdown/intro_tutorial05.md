@@ -35,3 +35,18 @@ Destroying test database for alias 'default'...
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/4d9392da901ee688434a671dd2dae09243bc34b6),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/4d9392da901ee688434a671dd2dae09243bc34b6)
+
+- [ ] add multiple tests
+```
+$ docker run --rm -u $UID -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py test polls
+Creating test database for alias 'default'...
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK
+Destroying test database for alias 'default'...
+```
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/adc781bcd491abe487bb71601f3796a6f43fead5),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/adc781bcd491abe487bb71601f3796a6f43fead5)
