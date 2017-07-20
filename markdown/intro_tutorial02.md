@@ -40,7 +40,7 @@ $ docker run --rm -u $UID -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py 
 - [ ] invoke Python shell
 
 ```
-$ docker run --rm -u $UID -it -p 8000:8000 -v $LOCALPATH:/app/mysite $IMAGENAME python shell
+$ docker run --rm -u $UID -it -p 8000:8000 -v $LOCALPATH:/app/mysite $IMAGENAME python manage.py shell
 ```
 
 - [ ] try inserting record
