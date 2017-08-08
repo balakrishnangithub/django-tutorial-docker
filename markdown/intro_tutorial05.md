@@ -80,3 +80,8 @@ b'\n    <ul>\n    \n        <li><a href="/polls/1/">What&#39;s up?</a></li>\n   
 >>> response.context['latest_question_list']
 <QuerySet [<Question: What's up?>]>
 ```
+
+ - [ ] fix listing or displaying future questions
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/999a31ad077a28198039648f5039dd45bcb8bea2),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/999a31ad077a28198039648f5039dd45bcb8bea2)
