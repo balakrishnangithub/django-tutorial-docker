@@ -85,3 +85,8 @@ b'\n    <ul>\n    \n        <li><a href="/polls/1/">What&#39;s up?</a></li>\n   
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/999a31ad077a28198039648f5039dd45bcb8bea2),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/999a31ad077a28198039648f5039dd45bcb8bea2)
+
+- [ ] add tests to ensure listing or displaying published questions only
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/6488094927243b1d6e10a9897856f830c29711d0),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/6488094927243b1d6e10a9897856f830c29711d0)

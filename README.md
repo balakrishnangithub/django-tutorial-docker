@@ -5,3 +5,4 @@
 [Django Admin](markdown/intro_tutorial02_django_admin.md)
 - [Part 3](markdown/intro_tutorial03.md)
 - [Part 4](markdown/intro_tutorial04.md)
+- [Part 5](markdown/intro_tutorial05.md)
