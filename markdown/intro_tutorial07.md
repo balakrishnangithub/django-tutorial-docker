@@ -26,3 +26,8 @@
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/8b421eb18ef8db7ad5464a9f134a09dbff47b0b0)
 
  Note: sorting by method is not supported by default
+
+- [ ] enable sorting to `was_published_recently` method in `list_display`
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/5179a6e38c5cca27cc4d30fd72e4b7ac32d5cedf),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/5179a6e38c5cca27cc4d30fd72e4b7ac32d5cedf)
