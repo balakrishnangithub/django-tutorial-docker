@@ -31,3 +31,8 @@
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/5179a6e38c5cca27cc4d30fd72e4b7ac32d5cedf),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/5179a6e38c5cca27cc4d30fd72e4b7ac32d5cedf)
+
+- [ ] enable filter by `pub_date` and enable search by `question_text`
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/5179a6e38c5cca27cc4d30fd72e4b7ac32d5cedf),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/5179a6e38c5cca27cc4d30fd72e4b7ac32d5cedf)
