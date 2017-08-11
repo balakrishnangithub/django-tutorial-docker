@@ -14,3 +14,8 @@
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/54c02026658e2a7185edee6807a2fbca65949521),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/54c02026658e2a7185edee6807a2fbca65949521)
+
+- [ ] display `Choice` in tabular form
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/be03c59255fff1f3a2128d5e16f94589a0396fe1),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/be03c59255fff1f3a2128d5e16f94589a0396fe1)
