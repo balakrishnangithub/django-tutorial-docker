@@ -24,3 +24,5 @@
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/8b421eb18ef8db7ad5464a9f134a09dbff47b0b0),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/8b421eb18ef8db7ad5464a9f134a09dbff47b0b0)
+
+ Note: sorting by method is not supported by default
