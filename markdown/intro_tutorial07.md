@@ -9,3 +9,8 @@
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/d76b54733868f0dbad59c997c3edb54d80723017),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/d76b54733868f0dbad59c997c3edb54d80723017)
+
+- [ ] move `Choice` to `QuestionAdmin`
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/54c02026658e2a7185edee6807a2fbca65949521),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/54c02026658e2a7185edee6807a2fbca65949521)
