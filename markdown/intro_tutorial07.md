@@ -19,3 +19,8 @@
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/be03c59255fff1f3a2128d5e16f94589a0396fe1),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/be03c59255fff1f3a2128d5e16f94589a0396fe1)
+
+- [ ] specify columns for Question list (by default `__str__()` is used)
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/8b421eb18ef8db7ad5464a9f134a09dbff47b0b0),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/8b421eb18ef8db7ad5464a9f134a09dbff47b0b0)
