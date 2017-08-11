@@ -14,6 +14,9 @@ class QuestionAdmin(admin.ModelAdmin):
         ('Date information', {'fields': ['pub_date']}),
     ]
     inlines = [ChoiceInline]
+    list_display = ('question_text', 'pub_date',  # property
+                    'was_published_recently'  # method - returns True or False
+                    )
 
 
 admin.site.register(
