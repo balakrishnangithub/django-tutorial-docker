@@ -36,3 +36,8 @@
 
  [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/5179a6e38c5cca27cc4d30fd72e4b7ac32d5cedf),
  [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/5179a6e38c5cca27cc4d30fd72e4b7ac32d5cedf)
+
+- [ ] customise Admin template
+
+ [code difference](https://github.com/bkmagnetron/django-tutorial-docker/commit/c2fca24552919ee4e2fa54f55d3731887aaff810),
+ [repository at this point](https://github.com/bkmagnetron/django-tutorial-docker/tree/c2fca24552919ee4e2fa54f55d3731887aaff810)

@@ -7,3 +7,4 @@
 - [Part 4](markdown/intro_tutorial04.md)
 - [Part 5](markdown/intro_tutorial05.md)
 - [Part 6](markdown/intro_tutorial06.md)
+- [Part 7](markdown/intro_tutorial07.md)
